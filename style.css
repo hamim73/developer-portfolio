@@ -6,11 +6,17 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 30px;
+}
+
+
+
 .orange-color{
     color: orange;
 }
 
-section{
+.flexable-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -42,4 +48,26 @@ section{
     background-image: url(photos/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.ex-bg{
+    background-image: url(photos/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.box-shadow{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin: 0 50px;
+    border-radius: 20px;
+    border-left: 5px solid;
+    border-image: linear-gradient(red, green);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+}
+
+.footer{
+    font-weight: 700;
 }
