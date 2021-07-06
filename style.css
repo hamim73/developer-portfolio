@@ -12,6 +12,7 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 
 .helf-width{
@@ -35,4 +36,10 @@ section{
 .top{
     background-image: url(photos/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.buttom-section{
+    background-image: url(photos/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
